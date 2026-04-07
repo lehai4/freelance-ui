@@ -261,3 +261,18 @@ class _HomeBannerState extends State<HomeBanner> {
     );
   }
 }
+
+class SquareBanner extends StatefulWidget {
+  const SquareBanner({super.key});
+
+  @override
+  State<SquareBanner> createState() => _SquareBannerState();
+}
+
+class _SquareBannerState extends State<SquareBanner> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+  }
+}
+
